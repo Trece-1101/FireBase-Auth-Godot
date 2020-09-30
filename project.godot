@@ -12,17 +12,27 @@ _global_script_classes=[ {
 "base": "Button",
 "class": "GoButton",
 "language": "GDScript",
-"path": "res://game/RegisterButton.gd"
+"path": "res://game/ui/buttons/GoButton.gd"
+}, {
+"base": "Control",
+"class": "Menu",
+"language": "GDScript",
+"path": "res://game/ui/menus/Menu.gd"
 } ]
 _global_script_class_icons={
-"GoButton": ""
+"GoButton": "",
+"Menu": ""
 }
 
 [application]
 
 config/name="FireBase Auth Godot"
-run/main_scene="res://game/Main.tscn"
+run/main_scene="res://game/ui/menus/Main.tscn"
 config/icon="res://icon.png"
+
+[autoload]
+
+Firebase="*res://game/autoloads/Firebase.gd"
 
 [rendering]
 

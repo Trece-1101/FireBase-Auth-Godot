@@ -1,4 +1,6 @@
+class_name Menu
 extends Control
+
 
 func _ready() -> void:
 	for but in $ButtonContainer.get_children():

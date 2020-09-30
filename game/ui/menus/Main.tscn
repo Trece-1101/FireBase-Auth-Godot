@@ -1,8 +1,8 @@
 [gd_scene load_steps=4 format=2]
 
-[ext_resource path="res://game/RegisterButton.tscn" type="PackedScene" id=1]
-[ext_resource path="res://game/Main.gd" type="Script" id=2]
-[ext_resource path="res://game/LoginButton.tscn" type="PackedScene" id=3]
+[ext_resource path="res://game/ui/buttons/RegisterButton.tscn" type="PackedScene" id=1]
+[ext_resource path="res://game/ui/menus/Menu.gd" type="Script" id=2]
+[ext_resource path="res://game/ui/buttons/LoginButton.tscn" type="PackedScene" id=3]
 
 [node name="Main" type="Control"]
 anchor_right = 1.0
